@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:gravity="center"
+    android:background="@mipmap/background1"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:src="@mipmap/icon_image"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/ButtonId1"
+        style="@style/TextAppearance.AppCompat.Widget.Button.Borderless.Colored"
+        android:text="Call Here"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/ButtonId2"
+        style="@style/TextAppearance.AppCompat.Widget.Button.Borderless.Colored"
+        android:text="Visit Website"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/ButtonId3"
+        style="@style/TextAppearance.AppCompat.Widget.Button.Borderless.Colored"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:text="Find in Map"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
